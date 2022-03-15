@@ -1,0 +1,15 @@
+@import "~bulma/sass/utilities/_all";
+
+$brown: #593315;
+// $brown: red;
+$brown-invert: findColorInvert($brown);
+
+$colors: (
+  "brown": (
+    $brown,
+    $brown-invert,
+  ),
+);
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
